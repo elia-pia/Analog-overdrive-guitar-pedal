@@ -669,7 +669,7 @@
         "uuid": "6bb676e9-77fc-434d-95a1-c82abd82b43e"
       }
     ],
-    "used_designators": "Battery1,RV1,U1,D1-2,tone1,C1-7,Output1,J1-3,Input1,volume1,R1-5,#PWR1-8,gain1,BT1,SW1",
+    "used_designators": "R1-5,gain1,#PWR1-8,SW1,BT1,Battery1,RV1,U1,D1-2,tone1,C1-7,Output1,volume1,Input1,J1-3",
     "variants": []
   },
   "sheets": [
