@@ -1,0 +1,23 @@
+﻿Reference,Quantity,Value,Description,Package/Footprint,Notes,Source
+R1,1,1 kΩ,Resistor,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
+R2,1,1 kΩ,Resistor,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
+R3,1,1 MΩ,Resistor,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
+R4,1,1 kΩ,Resistor,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
+R5,1,10 kΩ,Resistor,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
+C1,1,100 pF,Capacitor,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
+C2,1,220 nF,Capacitor,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
+C3,1,1 µF,Capacitor,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
+C4,1,22 nF,Capacitor,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
+C5,1,470 nF,Capacitor,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
+C6,1,47 µF,Capacitor,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
+C7,1,47 µF,Capacitor,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
+D1,1,1N4148,Signal diode,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
+D2,1,1N4148,Signal diode,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
+U1A,1,TL082,Dual operational amplifier IC,Not specified,Schematic shows amplifier section U1A; one physical TL082 IC is required.,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
+GAIN,1,500 kΩ,Gain potentiometer,Not specified,Physical potentiometer taper/type is not specified.,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
+TONE,1,10 kΩ,Tone potentiometer,Not specified,Physical potentiometer taper/type is not specified.,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
+VOLUME,1,100 kΩ,Volume potentiometer,Not specified,Physical potentiometer taper/type is not specified.,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
+SW1,1,SPDT,Single-pole double-throw switch,Not specified,Exact physical switch type is not specified.,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
+BT1,1,9 V,Power source / battery symbol,Not specified,Confirm the intended supply voltage: the schematic currently labels BT1 as 0 V.,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
+J1,1,AudioJack2,Audio jack,Not specified,Connector format/size is not specified by the schematic symbol.,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
+J2,1,AudioJack2,Audio jack,Not specified,Connector format/size is not specified by the schematic symbol.,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
