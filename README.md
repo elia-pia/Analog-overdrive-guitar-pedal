@@ -8,7 +8,8 @@ Circuit schematic | PCB layout
  
 ## What is this?
  
-this is the a simple overdrive pedal that i designed personally 
+this is the a simple overdrive pedal that i designed personally
+you should be able to build it for around 50$ or less
  
 ## Bill of materials
 
