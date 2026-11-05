@@ -1,31 +1,18 @@
-A compact and easy-to-use analog overdrive guitar pedal.
+# A compact and easy-to-use analog overdrive guitar pedal.
+
 
 ## Images
 
 Circuit schematic | PCB layout
 --- | ---
-![Circuit schematic](Schematic.png) | [PCB design files](Pedal_pcb/)
+![Circuit schematic](https://raw.githubusercontent.com/elia-pia/Analog-overdrive-guitar-pedal/main/Schematic.png) | [PCB design files](Pedal_pcb/)
+
  
 ## What is this?
  
 this is the a simple overdrive pedal that i designed personally
 you should be able to build it for around 50$ or less
  
-## Bill of materials
-
-Qty | Part | Notes
---- | --- | ---
-1 | TL082 operational amplifier (`U1A`) | Main amplifier stage
-2 | 1N4148 diodes (`D1`, `D2`) | Signal clipping
-1 | Gain potentiometer | 500 kΩ
-1 | Tone potentiometer | 10 kΩ
-1 | Volume potentiometer | 100 kΩ
-1 | SPDT switch (`SW1`) | Power switch
-1 | 9V battery or suitable 9V supply (`BT1`) | Power source
-2 | 1/4-inch audio jacks (`J1`, `J2`) | Input and output
-1 | Custom PCB | Design files in `Pedal_pcb/`
-1 | Set of resistors | Values as specified in the schematic
-1 | Set of capacitors | Values as specified in the schematic
  
 ## Building it
 
