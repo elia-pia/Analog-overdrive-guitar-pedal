@@ -1,23 +1,31 @@
-﻿Reference,Quantity,Value,Description,Package/Footprint,Notes,Source
-R1,1,1 kΩ,Resistor,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
-R2,1,1 kΩ,Resistor,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
-R3,1,1 MΩ,Resistor,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
-R4,1,1 kΩ,Resistor,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
-R5,1,10 kΩ,Resistor,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
-C1,1,100 pF,Capacitor,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
-C2,1,220 nF,Capacitor,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
-C3,1,1 µF,Capacitor,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
-C4,1,22 nF,Capacitor,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
-C5,1,470 nF,Capacitor,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
-C6,1,47 µF,Capacitor,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
-C7,1,47 µF,Capacitor,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
-D1,1,1N4148,Signal diode,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
-D2,1,1N4148,Signal diode,Not specified,,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
-U1A,1,TL082,Dual operational amplifier IC,Not specified,Schematic shows amplifier section U1A; one physical TL082 IC is required.,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
-GAIN,1,500 kΩ,Gain potentiometer,Not specified,Physical potentiometer taper/type is not specified.,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
-TONE,1,10 kΩ,Tone potentiometer,Not specified,Physical potentiometer taper/type is not specified.,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
-VOLUME,1,100 kΩ,Volume potentiometer,Not specified,Physical potentiometer taper/type is not specified.,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
-SW1,1,SPDT,Single-pole double-throw switch,Not specified,Exact physical switch type is not specified.,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
-BT1,1,9 V,Power source / battery symbol,Not specified,Confirm the intended supply voltage: the schematic currently labels BT1 as 0 V.,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
-J1,1,AudioJack2,Audio jack,Not specified,Connector format/size is not specified by the schematic symbol.,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
-J2,1,AudioJack2,Audio jack,Not specified,Connector format/size is not specified by the schematic symbol.,https://github.com/elia-pia/Analog-overdrive-guitar-pedal/blob/main/Schematic.png
+Reference,Part,Quantity,Supplier,Price (USD),Purchase link
+"R1, R2","1 kΩ — Axial carbon-film resistor, 0.25 W, ±5% (CF1/4W-1K); supplier minimum order 100 pcs",2,TME,$1.12,https://www.tme.eu/it/details/cf1_4w-1k/resistori-tht/sr-passives/
+R3,"1 MΩ — Axial carbon-film resistor, 0.25 W, ±5% (MCF 0.25W 1M); supplier minimum order 10 pcs",1,Farnell,$0.46,https://it.farnell.com/multicomp-pro/mcf-0-25w-1m/resistore-carbon-film-1m-0-25w/dp/9339086
+R4,"10 kΩ — Axial carbon-film resistor, 0.25 W, ±5% (CF1/4W-10K); supplier minimum order 100 pcs",1,TME,$1.12,https://www.tme.eu/en/details/cf1_4w-10k/tht-resistors/sr-passives/
+C1,"100 pF — Ceramic capacitor, ±10%, 2 kV candidate (CCH-100P/2000V); supplier minimum order 10 pcs; candidate only — verify dielectric, voltage rating and footprint",1,TME,$1.12,https://www.tme.eu/it/details/cch-100p_2000v/condensatori-ceramici/sr-passives/
+C2,"220 nF — Polypropylene film capacitor, X2, 310 VAC candidate (MKP-X2-220NR10/310); supplier minimum order 10 pcs; candidate only",1,TME,$1.57,https://www.tme.eu/it/details/mkp-x2-220nr10_310/condensatori-a-lamina-tht/sr-passives/
+C3,"1 µF — Polyester film capacitor, ±10% (R82DC4100DQ60K (MC5-1U))",1,TME,$0.66,https://www.tme.eu/it/details/mc5-1u/condensatori-a-lamina-tht/kemet/r82dc4100dq60k/
+C4,"22 nF — Polyester film capacitor, ±5% (R82EC2220DQ50J (MC5-22N-5%))",1,TME,$0.58,https://www.tme.eu/en/details/mc5-22n-5%25/tht-film-capacitors/kemet/r82ec2220dq50j/
+C5,"470 nF — Polyester film capacitor, ±5% (R82DC3470DQ60J)",1,TME,$0.51,https://www.tme.eu/en/details/r82dc3470dq60j/tht-film-capacitors/kemet/
+"C6, C7","47 µF each — Aluminium electrolytic capacitor, ±20% (EEUFR1H470)",2,TME,$0.72,https://www.tme.eu/it/details/eeufr1h470/condensatori-elettrolitici-tht/panasonic/
+"D1, D2",1N4148 — Small-signal switching diode (1N4148),2,TME,$0.22,https://www.tme.eu/it/details/1n4148-dio/diodi-universali-tht/diotec-semiconductor/1n4148/
+U1 (U1A section),TL082 — Dual JFET-input operational amplifier (TL082 (SKU 1310-TL082)),1,FuturaShop,$1.80,https://futuranet.it/prodotto/tl082/
+GAIN,500 kΩ — Single-turn linear potentiometer (R16148-1A-2-B500K); supplier minimum order 2 pcs; verify taper and mechanical/PCB fit,1,TME,$1.03,https://www.tme.eu/it/details/r16148-1a-2-b500k/potenziometri-a-carbone-mono-giro/sr-passives/
+TONE,10 kΩ — Single-turn linear potentiometer (R16148-1A-2-B10K); supplier minimum order 2 pcs; verify taper and mechanical/PCB fit,1,TME,$1.03,https://www.tme.eu/it/details/r16148-1a-2-b10k/potenziometri-a-carbone-mono-giro/sr-passives/
+VOLUME,100 kΩ — Single-turn linear potentiometer (R16148-1A-2-B100K); supplier minimum order 2 pcs; verify taper and mechanical/PCB fit,1,TME,$1.08,https://www.tme.eu/it/details/r16148-1a-2-b100k/potenziometri-a-carbone-mono-giro/sr-passives/
+SW1,"SPDT — Panel-mount toggle switch, ON-ON (MTS-102)",1,Plexishop,$0.99,https://plexishop.it/en/lever-switches/12145-mts-102-toggle-switch-1-contact-on-on.html
+"J1, J2",6.3 mm mono — 1/4-inch mono panel-mount audio jack (NYS229),2,TME,$3.30,https://www.tme.eu/it/details/nys229/connettori-jack/rean/
+BT1,9 V (6LR61) — Alkaline 9 V battery (VARPOWER6LR61 (SKU 4488-VARPOWER6LR61)),1,FuturaShop,$4.04,https://futuranet.it/categoria-prodotto/batterie-e-alimentatori/
+BT1-CLIP,9 V battery clip — Snap connector with pre-wired leads (5500-ATP65),1,FuturaShop,$0.67,https://futuranet.it/prodotto/clips-per-batteria-9-volt/
+KNOBS,6 mm shaft — Black plastic potentiometer knob with white indicator (2846-MANOPOT1),3,FuturaShop,$1.68,https://futuranet.it/prodotto/manopola-plastica-per-potenziometro/
+ENCLOSURE,1590B style; 112 x 61 x 31 mm — Cast aluminium effects-pedal enclosure (SCA030003),1,Plexishop,$7.53,https://plexishop.it/scatole-in-alluminio/12171-scatola-alluminio-pedaliera-112x61x31.html
+SHIP-TME,"Standard ground shipping to Italy, up to 15 kg (published €7.20 incl. VAT; check remote-area surcharge)",1,TME,$8.08,https://www.tme.eu/it/how-to-buy/7385/Modalita-e-spese-di-trasporto/
+SHIP-FARNELL,Standard delivery contribution for orders below €75 (listed €11.99; confirm VAT at checkout),1,Farnell,$13.46,https://it.farnell.com/help/delivery-information
+SHIP-FUTURA,Prepaid delivery for orders below €25 (listed €7.50; current FuturaShop items total €7.30),1,FuturaShop,$8.42,https://futuranet.it/condizioni-di-vendita/
+SHIP-PLEXI,Italy shipping range €9.00–€44.28; final cost depends on parcel and destination,1,Plexishop,$10.10–$49.70,https://plexishop.it/en/content/1-shipping-and-delivery
+PCB,"Custom PCB fabrication from the KiCad design; exact cost requires board size, layer/finish and order quantity",1 order,JLCPCB,QUOTE REQUIRED,https://jlcpcb.com/quote
+SHIP-JLC,PCB shipping to Italy; exact price depends on board weight and selected shipping method,1,JLCPCB,QUOTE REQUIRED,https://jlcpcb.com/help/article/how-much-does-shipping-cost
+WIRING,"Insulated hookup wire for off-board jacks, battery, switch and controls; final length/colours to be set from wiring diagram/CAD",TBD,TBD,QUOTE REQUIRED,
+MOUNTING,"PCB/enclosure standoffs, screws, nuts and washers; count and sizes to be set from final CAD assembly",TBD,TBD,QUOTE REQUIRED,
+ASSEMBLY,Solder and heat-shrink/insulation consumables; quantity depends on assembly method,1 set,TBD,QUOTE REQUIRED,
+KNOWN-SUBTOTAL,"Known component order packs + listed supplier shipping estimates only; excludes JLCPCB fabrication/shipping, wiring, mounting hardware and assembly consumables",—,Estimate,$71.31–$110.90,
