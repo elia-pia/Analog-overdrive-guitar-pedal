@@ -10,13 +10,14 @@ Circuit schematic | PCB layout
  
 ## What is this?
  
-this is the a simple overdrive pedal that i designed personally
+this is a simple overdrive pedal that i designed personally, some of the graphics on the pcb are inspire by a Dean Axe guitar
+
 you should be able to build it for around 50$ or less
  
  
 ## Building it
 
 1. Order the PCB from JLCPCB using the KiCad project files.
-2. you can build a case with simple household materials
+2. you can build a case with simple household materials or buy a box from an hardware store
 3. Assemble the PCB
 4. put the pcb in the case
