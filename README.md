@@ -5,7 +5,7 @@
 
 Circuit schematic | PCB layout
 --- | ---
-![Circuit schematic](assets/Schematic.png) | [PCB design files](assets/pcb_layout.png)
+![Circuit schematic](assets/Schematic.png) | ![PCB design files](assets/pcb_layout.png)
 
  
 ## What is this?
