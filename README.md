@@ -5,7 +5,7 @@
 
 Circuit schematic | PCB layout
 --- | ---
-![Circuit schematic](https://raw.githubusercontent.com/elia-pia/Analog-overdrive-guitar-pedal/main/Schematic.png) | [PCB design files](Pedal_pcb/)
+![Circuit schematic](assets/Schematic.png) | [PCB design files](assets/pcb_layout.png)
 
  
 ## What is this?
